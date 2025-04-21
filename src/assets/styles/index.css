@@ -1,0 +1,108 @@
+/* src/assets/styles/index.css */
+.App {
+  position: relative;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  backdrop-filter: blur(10px);
+  background: rgba(41, 41, 41, 0.123);
+  z-index: 10;
+  border-bottom: #61dafb2c 1px solid;
+}
+
+.navbar a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 0.9rem;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #21a1f1;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: #61dafb;
+  margin-left: 0.5rem;
+}
+
+.language-dropdown {
+  background: rgba(255, 255, 255, 0.1);
+  color: #61dafb;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  margin-left: 1rem;
+}
+
+.language-dropdown:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #21a1f1;
+}
+
+.language-dropdown option {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.section {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .navbar a {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .language-dropdown {
+    margin: 0.5rem 0;
+    width: 150px;
+  }
+
+  .section {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}

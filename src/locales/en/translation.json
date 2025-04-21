@@ -1,0 +1,23 @@
+{
+    "navbar": {
+      "about": "ABOUT",
+      "skills": "SKILLS",
+      "projects": "PROJECTS",
+      "contact": "CONTACT",
+      "arduino": "Arduino"
+    },
+    "header": {
+      "title": "Quyết Thành's Portfolio"
+    },
+    "about": {
+      "title": "About Me",
+      "description1": "Hi, I'm {{name}}! I'm a Front-end Developer and Embedded Software Enthusiast with a passion for building innovative web and IoT applications.",
+      "description2": "I specialize in React, Arduino, ESP32, and MicroPython, creating seamless integrations between web interfaces and embedded systems."
+    },
+    "projects": {
+      "arduino_app": {
+        "title": "Arduino Drag-and-Drop App",
+        "description": "A React Native app for programming Arduino with a drag-and-drop interface and Bluetooth upload."
+      }
+    }
+  }

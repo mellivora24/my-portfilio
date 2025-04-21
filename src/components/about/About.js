@@ -1,17 +1,27 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import './About.css';
+import profilePic from '../../assets/images/logo512.png';
 
 function About() {
+  const { t } = useTranslation();
+
   return (
-    <section id="about" className="section">
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm [Your Name]! I'm a [your role, e.g., Front-end Developer] with a passion for building
-        beautiful and functional web applications.
-      </p>
-      <p>
-        I specialize in React, JavaScript, and modern web technologies. In my free time, I love
-        exploring new tools and contributing to open-source projects.
-      </p>
+    <section id="about" className="about-section">
+      <div className="about-content">
+        <img src={profilePic} alt="Quyết Thành" className="profile-pic" />
+        <h2>{t('about.title')}</h2>
+        <p>{t('about.description1', { name: 'Quyết Thành' })}</p>
+        <p>{t('about.description2')}</p>
+        <div className="skills-list">
+          <span className="skill-tag">Arduino</span>
+          <span className="skill-tag">ESP32</span>
+          <span className="skill-tag">React</span>
+          <span className="skill-tag">MicroPython</span>
+          <span className="skill-tag">IoT</span>
+          <span className="skill-tag">C/C++</span>
+        </div>
+      </div>
     </section>
   );
 }
