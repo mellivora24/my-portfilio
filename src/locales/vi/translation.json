@@ -1,0 +1,23 @@
+{
+    "navbar": {
+      "about": "Về tôi",
+      "skills": "Kỹ năng",
+      "projects": "Dự án",
+      "contact": "Liên hệ",
+      "arduino": "Arduino"
+    },
+    "header": {
+      "title": "Portfolio của Quyết Thành"
+    },
+    "about": {
+      "title": "Về tôi",
+      "description1": "Xin chào, tôi là {{name}}! Tôi là một Lập trình viên Front-end và Đam mê Phần mềm Nhúng, yêu thích xây dựng các ứng dụng web và IoT sáng tạo.",
+      "description2": "Tôi chuyên về React, Arduino, ESP32 và MicroPython, tạo ra sự tích hợp mượt mà giữa giao diện web và hệ thống nhúng."
+    },
+    "projects": {
+      "arduino_app": {
+        "title": "Ứng dụng kéo thả Arduino",
+        "description": "Ứng dụng React Native để lập trình Arduino với giao diện kéo thả và nạp code qua Bluetooth."
+      }
+    }
+  }
