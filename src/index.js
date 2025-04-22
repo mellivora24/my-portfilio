@@ -25,7 +25,7 @@ function App() {
       <nav className="navbar">
         <div className="navbar-logo">
           <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" alt="Logo" className="logo" width="40px"/>
-          <span className="logo-text">Quyết Thành</span>
+          <span className="logo-text">{t('navbar.owner')}</span>
         </div>
         <div className="navbar-links">
           <a href="#about">{t('navbar.about')}</a>

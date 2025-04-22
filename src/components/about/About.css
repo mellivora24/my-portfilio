@@ -1,94 +1,13 @@
-/* src/components/about/About.css */
 .about-section {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   min-height: 100vh;
   padding: 2rem;
 }
 
-.about-content {
-  max-width: 600px;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  /* Nền tối trong suốt */
-  border-radius: 10px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
-}
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1.5rem;
-  border: 2px solid #61dafb;
-  /* Viền xanh Arduino */
-}
-
-.about-content h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  color: #61dafb;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.about-content p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
-  color: #e0e0e0;
-  /* Chữ xám nhạt cho độ tương phản */
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.skill-tag {
-  background: #00979d;
-  /* Xanh Arduino đậm */
-  color: #ffffff;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.skill-tag:hover {
-  transform: scale(1.1);
-  background: #21a1f1;
-  /* Xanh sáng khi hover */
-}
-
 @media (max-width: 768px) {
   .about-section {
     padding: 1rem;
-  }
-
-  .about-content {
-    max-width: 100%;
-    padding: 1.5rem;
-  }
-
-  .about-content h2 {
-    font-size: 2rem;
-  }
-
-  .about-content p {
-    font-size: 1rem;
-  }
-
-  .profile-pic {
-    width: 120px;
-    height: 120px;
   }
 }
