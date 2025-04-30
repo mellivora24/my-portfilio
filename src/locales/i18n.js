@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import enTranslation from './locales/en/translation.json';
-import viTranslation from './locales/vi/translation.json';
+import enTranslation from './en/translation.json';
+import viTranslation from './vi/translation.json';
 
 i18n
   .use(initReactI18next) // Kết nối i18next với React

@@ -1,0 +1,13 @@
+.about-section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 1rem;
+  }
+}
