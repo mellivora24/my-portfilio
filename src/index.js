@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Galaxy
-        particleColors={["#ffffff", "#ffffff", "#ffffff", "#ffffff"]}
+        particleColors={["rgb(249, 255, 132)", "rgb(249, 255, 132)", "#ffffff", "rgb(249, 255, 132)"]}
         particleCount={1000}
         particleSpread={10}
         speed={0.1}

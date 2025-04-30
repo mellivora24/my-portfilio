@@ -1,11 +1,10 @@
 {
     "navbar": {
       "owner": "Quyết Thành",
-      "about": "Về tôi",
-      "skills": "Kỹ năng",
-      "projects": "Dự án",
-      "contact": "Liên hệ",
-      "arduino": "Arduino"
+      "about": "VỀ TÔI",
+      "skills": "KỸ NĂNG",
+      "projects": "DỰ ÁN",
+      "contact": "LIÊN HỆ"
     },
     "header": {
       "title": "Portfolio của Quyết Thành"

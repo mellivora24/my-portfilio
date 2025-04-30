@@ -1,13 +1,78 @@
 .about-section {
   display: flex;
-  justify-content: left;
-  align-items: center;
+  flex-direction: column;
+  justify-content: start;
   min-height: 100vh;
-  padding: 2rem;
+  max-height: 100vh;
+  padding: 5rem 0 2rem 0;
 }
 
-@media (max-width: 768px) {
-  .about-section {
-    padding: 1rem;
+.about-section .about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+/* Text bên trái */
+.about-container .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 50%;
+}
+.about-container .about-text h1 {
+  font-size: 4.5rem;
+}
+
+.about-container .about-text h2 {
+  padding-left: 30px;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+/* Ảnh bên phải */
+.profile-card {
+  height: 80vh; /* giữ nguyên như bạn yêu cầu */
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-card img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Hiệu ứng ánh sáng */
+.profile-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 30%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.profile-card:hover::before {
+  animation: shine 1.5s forwards;
+  opacity: 1;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
   }
 }
