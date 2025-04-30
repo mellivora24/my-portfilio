@@ -1,8 +1,7 @@
-/* src/assets/styles/index.css */
 .App {
-  position: relative;
-  min-height: 100vh;
   color: #ffffff;
+  min-height: 100vh;
+  position: relative;
   font-family: 'Roboto', sans-serif;
 }
 
