@@ -1,16 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
+import "../../locales/i18n";
 
 function Skills() {
-  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Git'];
+  const { t, i18n } = useTranslation(); // eslint-disable-line no-unused-vars
+  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Git']; // eslint-disable-line no-unused-vars
 
   return (
     <section id="skills" className="section">
-      <h2>Skills</h2>
-      <ul className="skills-list">
-        {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
+      <span>Updating...</span>
     </section>
   );
 }

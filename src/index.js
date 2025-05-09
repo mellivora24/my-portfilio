@@ -10,6 +10,7 @@ import Galaxy from "./components/background/Galaxy";
 import About from "./lib/about/About";
 import Skills from "./lib/skills/Skills";
 import Projects from "./lib/projects/Projects";
+import Services from "./lib/services/Services";
 import Contact from "./lib/contact/Contact";
 
 import setDynamicTitle from "./utils/dynamicTitle";
@@ -50,6 +51,7 @@ function App() {
           <a href="#about">{t("navbar.about")}</a>
           <a href="#skills">{t("navbar.skills")}</a>
           <a href="#projects">{t("navbar.projects")}</a>
+          <a href="#services">{t("navbar.services")}</a>
           <a href="#contact">{t("navbar.contact")}</a>
           <select
             className="language-dropdown"
@@ -63,8 +65,13 @@ function App() {
       </nav>
       <main>
         <About />
+        <h1>What I learned?</h1>
         <Skills />
+        <h1>My projects</h1>
         <Projects />
+        <h1>My service</h1>
+        <Services />
+        <h1>Contact / Hiring me</h1>
         <Contact />
       </main>
     </div>

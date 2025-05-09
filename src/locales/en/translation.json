@@ -10,9 +10,9 @@
       "title": "Quyết Thành's Portfolio"
     },
     "about": {
-      "title": "About Me",
-      "description1": "Hi, I'm {{name}}! I'm a Front-end Developer and Embedded Software Enthusiast with a passion for building innovative web and IoT applications.",
-      "description2": "I specialize in React, Arduino, ESP32, and MicroPython, creating seamless integrations between web interfaces and embedded systems."
+      "greeting": "Hi there!",
+      "description": "I'm Thành - a developer specializing in cross-platform IoT applications. With 3 years of experience, I can build complete IoT systems, from firmware programming for microcontrollers (Arduino, ESP, STM32 using C++) to developing user control applications (using Flutter) and backend data processing (with NodeJS, Firebase, MQTT).",
+      "hire_me": "HIRE ME - LET'S TALK!"
     },
     "projects": {
       "arduino_app": {

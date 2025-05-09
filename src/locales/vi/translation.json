@@ -10,9 +10,9 @@
       "title": "Portfolio của Quyết Thành"
     },
     "about": {
-      "title": "Về tôi",
-      "description1": "Xin chào, tôi là {{name}}! Tôi là một Lập trình viên Front-end và Đam mê Phần mềm Nhúng, yêu thích xây dựng các ứng dụng web và IoT sáng tạo.",
-      "description2": "Tôi chuyên về React, Arduino, ESP32 và MicroPython, tạo ra sự tích hợp mượt mà giữa giao diện web và hệ thống nhúng."
+      "greeting": "Xin chào!",
+      "description": "Mình là Thành - một Lập trình viên với chuyên môn về phát triển các ứng dụng IoT đa nền tảng. Với 3 năm kinh nghiệm, mình có khả năng xây dựng các hệ thống IoT hoàn chỉnh, từ lập trình firmware cho các vi điều khiển (Arduino, ESP, STM32 bằng C++) cho tới phát triển ứng dụng điều khiển người dùng (sử dụng Flutter) và xử lý dữ liệu backend (với NodeJS, Firebase, MQTT).",
+      "hire_me": "LIÊN HỆ CÔNG VIỆC"
     },
     "projects": {
       "arduino_app": {

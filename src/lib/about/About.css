@@ -22,19 +22,31 @@
   justify-content: start;
   width: 50%;
 }
+
 .about-container .about-text h1 {
   font-size: 4.5rem;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .about-container .about-text h2 {
-  padding-left: 30px;
+  padding-left: 5px;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.6;
+  padding-bottom: 1rem;
+}
+
+.custom-button-wrapper {
+  padding-left: 2px;
 }
 
 /* Ảnh bên phải */
 .profile-card {
-  height: 80vh; /* giữ nguyên như bạn yêu cầu */
+  height: 80vh;
   position: relative;
   overflow: hidden;
 }
@@ -44,7 +56,7 @@
   width: 100%;
 }
 
-/* Hiệu ứng ánh sáng */
+/* Hiệu ứng ánh sáng cho ảnh */
 .profile-card::before {
   content: '';
   position: absolute;
@@ -74,5 +86,24 @@
   }
   100% {
     left: 125%;
+  }
+}
+
+.shiny-text {
+  position: relative;
+  background: linear-gradient(90deg, #ffffff, #ffe96c, #ffffff);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 10s linear infinite;
+}
+
+/* Hiệu ứng chạy sáng */
+@keyframes shimmer {
+  0% {
+    background-position: -100% center;
+  }
+  100% {
+    background-position: 200% center;
   }
 }
